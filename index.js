@@ -8,8 +8,8 @@ const fs = require("fs")
 const args = process.argv.slice(2)
 
 var openGenBot = {
-    grabIndex: 0,
-    max: 0,
+    grabIndex: 5,
+    max: 10,
     results: []
 }
 
@@ -73,4 +73,4 @@ switch(args[0]){
     default:
         console.log("Invalid accountType.")
         break
-}
+ grab spotify
